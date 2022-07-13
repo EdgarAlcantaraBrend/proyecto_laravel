@@ -1,0 +1,1 @@
+<a href="{{ route('register')}}" class="btn-flotante">Registrate Ahora!!</a>
