@@ -5,6 +5,7 @@ use App\Http\Controllers\TablaCursosController;
 use App\Http\Controllers\AlfabetoController;
 use App\Http\Controllers\QuienesSomos;
 use App\Http\Controllers\Profesores;
+use App\Http\Controllers\Letra_a;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,6 +27,6 @@ Route::get('/tablaCursos', [App\Http\Controllers\TablaCursosController::class, '
 Route::get('/alfabeto', [App\Http\Controllers\AlfabetoController::class, 'alfabeto'])->name('alfabeto');
 Route::get('/profesores', [App\Http\Controllers\Profesores::class, 'profesores'])->name('profesores');
 Route::get('/quienesSomos', [App\Http\Controllers\QuienesSomos::class, 'quienesSomos'])->name('quienesSomos');
-
+Route::get('/grafias.letra_a', [App\Http\Controllers\Letra_a::class, 'letra_a'])->name('grafias.letra_a');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Auth::routes();

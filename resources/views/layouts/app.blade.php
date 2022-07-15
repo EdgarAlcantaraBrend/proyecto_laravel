@@ -57,7 +57,7 @@
 <body style="overflow-x: hidden;">
     
     <div id="app">
-        <div class="container fixed:100%""> 
+        <div class="container fixed:100%"> 
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top fixed-top navbar-responsive">
                         
@@ -110,7 +110,7 @@
                                 @else
                                     
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('home')}}"><span span class="fas fa-book" style="color:white"></span>Cursos</a>
+                                        <a class="nav-link" href="{{ route('home')}}"><span span class="fas fa-book" style="color:white"></span> Cursos</a>
                                     </li>  
 
                                     <li class="nav-item">
