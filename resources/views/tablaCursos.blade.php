@@ -9,7 +9,7 @@
             
             <div class="row">
                 <div class="col">
-                    <h1 class="display-4 text-center"><strong>CURSO 1: GRAFIAS</strong></h1>
+                    <h1 class="display-5 text-center" style="font-family: 'Cormorant SC', serif;"><strong>GRAFIAS</strong></h1>
                 </div>
             </div>
             
@@ -17,38 +17,31 @@
         <br>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <div class="table-responsive">
-                        <table class="table  table-hover table-dark text-center" id="t_clases" style="border-radius: 20px;"> 
-                            <thead>
-                                <tr>
-                                    <th>N. Clase</th>
-                                    <th>Nombre de la clase</th>
-                                    <th>Tomar clase</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Grafias Nahuatl</td>
-                                    <td><div class="text-center"><a button type="submit" class="btn btn-success" href="{{ route('alfabeto') }}">Empezar clase</a></div><br></td>
-                                    
-                                    
-                                </tr>
-
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="col">
+                    <table class="table table-bordered text-center" id="t_clases"> 
+                        <thead>
+                            <tr>
+                                <th>N. Clase</th>
+                                <th>Nombre de la clase</th>
+                                <th>Tomar clase</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Grafias Nahuatl</td>
+                                <td><a href="{{ route('alfabeto') }}"><button type="submit" class="btn btn-success">Empezar clase</button></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
 
         @include('flotantes.redesSociales') 
-       
-@endsection
-
-<script type="text/javascript">
-     
+    
+    <script type="text/javascript">
     $(document).ready( function () {
-       $('#t_clases').DataTable();});
-</script>
+        $('#t_clases').DataTable();});
+    </script>
+@endsection
