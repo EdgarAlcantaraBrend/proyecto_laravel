@@ -34,44 +34,44 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <div><td>Tahtle</td></div>
-                                <div><td>Padre</td></div>
+                                <div><td>tsapotl</td></div>
+                                <div><td>Zapote</td></div>
                                 <div><td><audio controls>
-                                <source src="{{asset('audios/letra_h/tahtle.mp3')}}" type="audio/mp3">
+                                <source src="{{asset('audios/letra_ts/tsapotl.mp3')}}" type="audio/mp3">
                                 </audio></td></div>
-                                <div><td><img src="{{asset('img/padre2.png')}}" class="image-responsive imagen" title=Letra_ch "  style="width: 95px;height:75px"></td></div>
+                                <div><td><img src="{{asset('img/zapote.png')}}" class="image-responsive imagen" title=Letra_ch "  style="width: 95px;height:75px"></td></div>
                             </tr>
                             <tr>
-                                <div><td>Panhtle</td></div>
-                                <div><td>Medicamento</td></div>
+                                <div><td>atsankan</td></div>
+                                <div><td>Donde se detiene el agua</td></div>
                                 <div><td><audio controls>
-                                <source src="{{asset('audios/letra_h/pahtle.mp3')}}" type="audio/mp3">
+                                <source src="{{asset('audios/letra_ts/atsahkan.mp3')}}" type="audio/mp3">
                                 </audio></td></div>
-                                <div><td><img src="{{asset('img/medicamento.png')}}" class="image-responsive imagen" title=Letra_ch "  style="width: 85px;height:75px"></td></div>
+                                <div><td><img src="{{asset('img/agua3.png')}}" class="image-responsive imagen" title=Letra_ch "  style="width: 85px;height:75px"></td></div>
                             </tr>
                             <tr>
-                                <div><td>Ahke</td></div>
-                                <div><td>¿quièn?</td></div>
+                                <div><td>tsiktle</td></div>
+                                <div><td>Chicle</td></div>
                                 <div><td><audio controls>
-                                <source src="{{asset('audios/letra_h/ahke.mp3')}}" type="audio/mp3">
+                                <source src="{{asset('audios/letra_ts/tsiktle.mp3')}}" type="audio/mp3">
                                 </audio></td></div>
-                                <div><td><img src="{{asset('img/quien.png')}}" class="image-responsive imagen" title=Letra_ch "  style="width: 85px;height:65px"></td></div>
+                                <div><td><img src="{{asset('img/chicle.png')}}" class="image-responsive imagen" title=Letra_ch "  style="width: 85px;height:65px"></td></div>
                             </tr>
                             <tr>
-                                <div><td>ETsahtse</td></div>
-                                <div><td>grita</td></div>
+                                <div><td>tsopelik</td></div>
+                                <div><td>Dulce</td></div>
                                 <div><td><audio controls>
-                                <source src="{{asset('audios/letra_h/tsahtse.mp3')}}" type="audio/mp3">
+                                <source src="{{asset('audios/letra_ts/tsopelik.mp3')}}" type="audio/mp3">
                                 </audio></td></div>
-                                <div><td><img src="{{asset('img/grito2.png')}}" class="image-responsive imagen" title="Letra_ch"  style="width: 95px;height:75px"></td></div>
+                                <div><td><img src="{{asset('img/dulce.png')}}" class="image-responsive imagen" title="Letra_ch"  style="width: 95px;height:75px"></td></div>
                             </tr>
                             <tr>
-                                <div><td>Ihtetl</td></div>
-                                <div><td>Estomago</td></div>
+                                <div><td>tsultik</td></div>
+                                <div><td>Reducido</td></div>
                                 <div><td><audio controls>
-                                <source src="{{asset('audios/letra_h/ihtetl.mp3')}}" type="audio/mp3">
+                                <source src="{{asset('audios/letra_ts/tsultik.mp3')}}" type="audio/mp3">
                                 </audio></td></div>
-                                <div><td><img src="{{asset('img/estomago.png')}}" class="image-responsive imagen" title=Letra_ch "  style="width: 85px;height:75px"></td></div>
+                                <div><td><img src="{{asset('img/reducido2.png')}}" class="image-responsive imagen" title=Letra_ch "  style="width: 85px;height:75px"></td></div>
                             </tr>
                             </td>
                     
