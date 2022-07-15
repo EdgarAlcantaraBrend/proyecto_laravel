@@ -23,8 +23,8 @@
             <div class="card card max-w-sm rounded overflow-hidden shadow-lg" style="width: 14rem;">
                 <img class="card-img-top" src="{{asset('img/abecedario_b.jpg')}}" height="" alt="">
                 <div class="card-body">
-                    <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">Grafías de la lengua Náhuatl</h5>
-                    <p class="card-text"  style="text-align:justify">El alfabeto practico consiste en 19 grafías para 19 fonemas propios del náhuatl.</p>
+                    <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">tetlahpalulistle (Saludo)</h5>
+                    <p class="card-text"  style="text-align:justify">Saludo por la tarde-noche (impersonal).</p>
                     <a href="{{ route('tablaCursos') }}"><button type="button" class="btn btn-outline-dark btn-block" href="curso_1.php">Ir a curso</button></a>
                 </div>
             </div>
@@ -33,8 +33,8 @@
             <div class="card card max-w-sm rounded overflow-hidden shadow-lg" style="width: 14rem;">
                 <img class="card-img-top" src="{{asset('img/abecedario_b.jpg')}}" height="" alt="">
                 <div class="card-body">
-                    <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">Grafías de la lengua Náhuatl</h5>
-                    <p class="card-text"  style="text-align:justify">El alfabeto practico consiste en 19 grafías para 19 fonemas propios del náhuatl.</p>
+                    <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">¿Ak nehwatl?</h5>
+                    <p class="card-text"  style="text-align:justify"></p>
                     <a href="{{ route('tablaCursos') }}"><button type="button" class="btn btn-outline-dark btn-block" href="curso_1.php">Ir a cursos 
                     </button></a>
                 </div>
@@ -45,7 +45,7 @@
                 <img class="card-img-top" src="{{asset('img/abecedario_b.jpg')}}" height="" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">Grafías de la lengua Náhuatl</h5>
-                    <p class="card-text"  style="text-align:justify">El alfabeto practico consiste en 19 grafías para 19 fonemas propios del náhuatl.</p>
+                    <p class="card-text"  style="text-align:justify"></p>
                     <a href="{{ route('tablaCursos') }}"><button type="button"  class="btn btn-outline-dark btn-block" href="curso_1.php" >Ir a curso</button></a>
                 </div>
             </div>
