@@ -3,6 +3,15 @@
 @section('content')
 <br><br><br><br>
 <div class="container">
+    <div class="row">
+        <div class="col">
+            <p>
+                <h1 class="display-6">{{$paciente->apellido_paterno}}  {{$paciente->apellido_materno}} {{$paciente->nombre}}</h1>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container">
     <center><h1 class="display-4" style="font-family: 'Cormorant SC', serif;">CURSOS EN NAHUATL</h1></center>
 </div>
 <br>
@@ -44,7 +53,7 @@
             <div class="card card max-w-sm rounded overflow-hidden shadow-lg" style="width: 14rem;">
                 <img class="card-img-top" src="{{asset('img/abecedario_b.jpg')}}" height="" alt="">
                 <div class="card-body">
-                    <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">Grafías de la lengua Náhuatl</h5>
+                    <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">Numeros en Nahualt</h5>
                     <p class="card-text"  style="text-align:justify"></p>
                     <a href="{{ route('tablaCursos') }}"><button type="button"  class="btn btn-outline-dark btn-block" href="curso_1.php" >Ir a curso</button></a>
                 </div>
