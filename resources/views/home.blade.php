@@ -2,6 +2,7 @@
 
 @section('content')
 <br><br><br>
+<!--
 <div class="container-fluid" style="background-color: aqua" >
     <div class="row">
         <div class="col">
@@ -13,7 +14,7 @@
             </p>
         </div>
     </div>
-</div>
+</div>-->
 <div class="container mt-4">
     <center><h1 class="display-4" style="font-family: 'Cormorant SC', serif;">CURSOS EN NAHUATL</h1></center>
 </div>
@@ -37,7 +38,7 @@
                 <div class="card-body">
                     <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">tetlahpalulistle (Saludo)</h5>
                     <p class="card-text"  style="text-align:justify">Saludo por la tarde-noche (impersonal).</p><br><br>
-                    <a href="{{ route('tablaCursos') }}"><button type="button" class="btn btn-outline-success btn-block" href="curso_1.php">Ir a curso</button></a>
+                    <a href="{{ route('tablaSaludo') }}"><button type="button" class="btn btn-outline-success btn-block" href="curso_1.php">Ir a curso</button></a>
                 </div>
             </div>
         </div>
@@ -65,6 +66,8 @@
         </div>
     </div>
 </div>
+<br>
+<br>
 <div class="container-fuid mt-2">
     <div class="row">
       <div class="col">
