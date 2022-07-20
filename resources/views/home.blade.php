@@ -1,17 +1,20 @@
 @extends('layouts.app')
 
 @section('content')
-<br><br><br><br>
-<div class="container">
+<br><br><br>
+<div class="container-fluid" style="background-color: aqua" >
     <div class="row">
         <div class="col">
-            <p>
-                <h1 class="display-6">{{$paciente->apellido_paterno}}  {{$paciente->apellido_materno}} {{$paciente->nombre}}</h1>
+            <p class="text-left">
+                @foreach ($User as $User) 
+                <h1 class="display-6" style="font-family: 'Edu NSW ACT Foundation', cursive;">¡¡ Bienvenido {{$User->name}}  {{$User->paterno}} {{$User->materno}} a Cybernahualt un mundo
+                    lleno de aprendizaje ancestral !!</h1>
+                @endforeach
             </p>
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container mt-4">
     <center><h1 class="display-4" style="font-family: 'Cormorant SC', serif;">CURSOS EN NAHUATL</h1></center>
 </div>
 <br>
