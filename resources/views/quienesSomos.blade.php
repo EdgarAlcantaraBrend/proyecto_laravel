@@ -68,6 +68,21 @@
         </div>
     </div>
 </div>
+<div class="container-fuid mt-2">
+    <div class="row">
+      <div class="col">
+      <div class="card text-white bg-dark text-center" >
+          <div class="card-body">
+            <h3 class="card-title" style="font-family: 'Questrial', sans-serif;">Aprender Nahualt te hara viajar al pasado</h3>
+            <p class="card-text"><h4 style="font-family: 'Questrial', sans-serif;">CyberNahualt esta comprometido que tendras una experiencia inovidable.</h4></p>
+          </div>
+          <div class="card-footer text-muted">
+            <p><h5 style="font-family: 'Questrial', sans-serif;">© Copyright 2022 CyberNahualt - Todos los Derechos Reservados</h5></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 @include('flotantes.redesSociales') 
 
 @endsection
