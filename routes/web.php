@@ -9,6 +9,7 @@ use App\Http\Controllers\Letras;
 use App\Http\Controllers\Letra_a;
 use App\Http\Controllers\Grafias;
 use App\Http\Controllers\TablaSaludo;
+use App\Http\Controllers\Animaciones;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -53,6 +54,7 @@ Route::get('/grafias.letra_y', [App\Http\Controllers\Letras::class, 'letra_y'])-
 
 Route::get('/tablaSaludo', [App\Http\Controllers\TablaSaludo::class, 'tablaSaludo'])->name('tablaSaludo');
 Route::get('/saludo', [App\Http\Controllers\Saludo::class, 'saludo'])->name('saludo');
+Route::get('/animaciones', [App\Http\Controllers\Animaciones::class, 'animaciones'])->name('animaciones');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Auth::routes();

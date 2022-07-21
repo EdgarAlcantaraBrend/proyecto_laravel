@@ -11,7 +11,20 @@
                     <h2 style="font-family: 'Ibarra Real Nova', serif;">Saludo por la tarde-noche (impersonal).</h2>
                 </div>
             </div>
-           
+            <div class="row">
+                <div class="col">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Opciones
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="{{ route('tablaSaludo') }}">Regresar a lista de clases</a></li>
+                            <li><a class="dropdown-item" href="{{ route('animaciones') }}">Animaciones</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <br>
             <div class="row"><div class="col text-center"><h5>Saludo:1</h5></div></div>
             <br>
