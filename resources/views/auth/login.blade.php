@@ -11,7 +11,7 @@
         <!-- Icon -->
         <div class="fadeIn first">
             <img src="{{asset('img/logo.jpg')}}"  href="curso.php" style="width: 200px;height:180px"/>
-            <h1 style="color: black">Bienvendo al mundo nahuatl</h1>
+            <h1 style="color: black">Bienvendo Al Mundo Nahuatl</h1>
         </div>
 
         <div class="card-body">
@@ -56,19 +56,11 @@
                     </div>
                 </div>
                 <br>
-                <div class="row ">
-                    <div class="col-md-12 offset-md-0">
-                        @if (Route::has('password.request'))
-                            <a class="btn btn-link" href="{{ route('password.request') }}">
-                                {{ __('Olvidaste tu contraseña.?') }}
-                            </a>
-                        @endif
-                    </div>
-                </div>
+                
             </form>    
         </div>
         <div id="formFooter">
-            <a class="nav-link" href="index.php"><button class="btn btn-danger" type="submit">Cancelar</button></a>
+            <a class="nav-link" href="{{ route('welcome') }}"><button class="btn btn-danger" type="submit">Cancelar</button></a>
         </div>
     </div>
 </div>

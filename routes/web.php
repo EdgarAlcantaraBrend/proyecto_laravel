@@ -27,6 +27,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/auth.register', [App\Http\Controllers\Auth\RegisterController::class, 'cancelar'])->name('welcome');
 Route::get('/tablaCursos', [App\Http\Controllers\TablaCursosController::class, 'tablaCursos'])->name('tablaCursos');
 Route::get('/alfabeto', [App\Http\Controllers\AlfabetoController::class, 'alfabeto'])->name('alfabeto');
 Route::get('/profesores', [App\Http\Controllers\Profesores::class, 'profesores'])->name('profesores');

@@ -9,7 +9,7 @@
             
             <div class="row">
                 <div class="col">
-                    <h1 class="display-5 text-center" style="font-family: 'Cormorant SC', serif;"><strong>GRAFIAS</strong></h1>
+                    <h1 class="display-5 text-center" style="font-family: 'Cormorant SC', serif;"><strong>GRAFÍAS</strong></h1>
                 </div>
             </div>
             

@@ -26,7 +26,7 @@
                         </div>
 
                         <div class="row mb-3">
-                            <label for="paterno" class="col-md-4 col-form-label text-md-end">{{ __('Apellido paterno: ') }}</label>
+                            <label for="paterno" class="col-md-4 col-form-label text-md-end">{{ __('Apellido Paterno: ') }}</label>
 
                             <div class="col-md-6">
                                 <input id="paterno" type="text" class="form-control @error('paterno') is-invalid @enderror" name="paterno" value="{{ old('paterno') }}" required autocomplete="paterno" autofocus>
@@ -114,16 +114,25 @@
                         </div>
                         
                         <div class="row mb-3">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('Confirm Password') }}</label>
+                            <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('Confirmar Contraseña') }}</label>
 
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
 
-                        <div class="row mb-0">
+                        <div class="row">
+                            <div class="col-7"></div>
+                            <div class="col" style="margin-top: -9px">
+                                <a class="nav-link"
+                                    href="{{ route('welcome') }}">
+                                    <span class="btn btn-danger" data-toggle="modal" href="{{ route('welcome') }}">
+                                        Cancelar
+                                    </span>
+                                    </a>
+                            </div>
                             <div class="col">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary" >
                                     {{ __('Registrar') }}
                                 </button>
                             </div>

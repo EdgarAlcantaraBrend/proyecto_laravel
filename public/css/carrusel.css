@@ -92,19 +92,20 @@
 
 .letras-recomendadas .contenedor-carousel .carousel .letras{
 
-    min-width:20%;
+    min-width:80%;
     transition: .3s ease all;
 
 }
 .letras-recomendadas .contenedor-carousel .carousel .letras.hover{
 
-    transform: scale(1.2);
+    transform: scale(1.5);
     transform-origin: center;
 }
 
 .letras-recomendadas .contenedor-carousel .carousel .letras img{
     width: 100%;
     vertical-align: top;
+    
 }
 @media screen and (max-width: 800px){
     

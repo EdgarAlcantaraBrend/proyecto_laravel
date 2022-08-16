@@ -113,8 +113,8 @@
                     Descárguelos y vea por qué Apple y Google nos dieron sus más altos elogios.</strong></p><br>
 
                     <div class="">
-                      <a href="https://www.apple.com/app-store/" target="_blank"><img  class="rounded" src="{{asset('img/appStore.png')}}"  type="button"  width="300px" height="60px"></a>
-                      <a href="https://play.google.com/store/games" target="_blank"><img  class="rounded"  src="{{asset('img/googleStore.png')}}" type="button" width="300px" height="150px"></a>
+                      
+                      <a href="https://play.google.com/store/games" target="_blank"><img  class="rounded"  src="{{asset('img/googleStore.png')}}" type="button" width="300px" height="150px" style="margin-left: 315px;"></a>
                       
                     </div>
               </div>
@@ -134,7 +134,7 @@
           <div class="card-body">
             <h3 class="card-title" style="font-family: 'Questrial', sans-serif;">Aprender Nahualt te hara viajar al pasado</h3>
             <p class="card-text"><h4 style="font-family: 'Questrial', sans-serif;">CyberNahualt esta comprometido que tendras una experiencia inovidable.</h4></p>
-            <a href="registro.php" class="btn btn-primary">Registrate ahora!!!!</a>
+            
           </div>
           <div class="card-footer text-muted">
             <p><h5 style="font-family: 'Questrial', sans-serif;">© Copyright 2022 CyberNahualt - Todos los Derechos Reservados</h5></p>

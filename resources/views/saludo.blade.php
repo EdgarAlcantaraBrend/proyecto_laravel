@@ -6,9 +6,9 @@
         <br>
         <br>
         <div class="container">
-            <div class="row">
+            <div class="row" style="margin-top: -8px">
                 <div class="col text-center">
-                    <h2 style="font-family: 'Ibarra Real Nova', serif;">Saludo por la tarde-noche (impersonal).</h2>
+                    <h2 style="font-family: 'Ibarra Real Nova', serif;">Saludo por la tarde-noche (Impersonal).</h2>
                 </div>
             </div>
             <div class="row">
@@ -26,8 +26,9 @@
                 </div>
             </div>
             <br>
-            <div class="row"><div class="col text-center"><h5>Saludo:1</h5></div></div>
+            <div class="row" style="margin-top: -8px"><div class="col text-center"><h5>Saludo:1</h5></div></div>
             <br>
+            <center><img src="{{asset('img/personas3.gif')}}" alt="" style="width:400px;height:230px;margin-top:-10px"></center>
         </div>
         
 
@@ -127,6 +128,7 @@
             <br>
             <div class="row"><div class="col text-center"><h5>Saludo:2</h5></div></div>
             <br>
+            <center><img src="{{asset('img/personas3.gif')}}" alt="" style="width:400px;height:230px;margin-top:-10px"></center>
         </div>
         <div class="container-fluid:100%">
             <div class="row">

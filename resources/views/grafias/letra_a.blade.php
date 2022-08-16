@@ -5,16 +5,21 @@
     <br>
     <div class="container mt-5">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-1">
                 <a class="nav-link" href="{{ route('alfabeto')}}"><button class="btn btn-success " type="submit"><i class="fas fa-chevron-left"></i> Regresar</button></a>
             </div>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-4 text-center">
+                <h1 style="font-family: 'Cormorant Garamond', serif;" style="margin-left: 60px;">
+                    GRAFÍA :
+                </h1>
+            </div>
+            <div class="col"></div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col text-center">
-                <h1 style="font-family: 'Cormorant Garamond', serif;">
-                    GRAFÍAS
-                </h1>
+            <div class="col">
+                <center><img src="{{asset('img/letra_a.png')}}" alt="" style="width: 90px;height:90px;" id="img" onclick="sound.play()"></center>
             </div>
         </div>
     </div>
@@ -84,4 +89,5 @@
 
     <br>
     <br>
+    
 @endsection

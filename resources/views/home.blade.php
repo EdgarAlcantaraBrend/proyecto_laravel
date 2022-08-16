@@ -48,7 +48,7 @@
                 <div class="card-body">
                     <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">¿Ak nehwatl? (presentacion en Nahualt)</h5>
                     <p class="card-text"  style="text-align:justify">La forma de presentacion mediante el lenguaje Nahualt</p>
-                    <a href="{{ route('tablaCursos') }}"><button type="button" class="btn btn-outline-primary btn-block" href="curso_1.php">Ir a cursos 
+                    <a href="#"><button type="button" class="btn btn-outline-primary btn-block" href="#">Ir a cursos 
                     </button></a>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                     <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">Numeros en Nahualt</h5>
                     <p class="card-text"  style="text-align:justify">Consiste en los numeros en nahualt en la cual contiene los numeros basicos
                     de aprender en nahualt</p>
-                    <a href="{{ route('tablaCursos') }}"><button type="button"  class="btn btn-outline-danger btn-block" href="curso_1.php" >Ir a curso</button></a>
+                    <a href="#"><button type="button"  class="btn btn-outline-danger btn-block" href="#" >Ir a curso</button></a>
                 </div>
             </div>
         </div>
