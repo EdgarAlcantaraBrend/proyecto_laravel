@@ -1,20 +1,17 @@
 @extends('layouts.app')
 
-@section('content')
+@section('content')go
 <br><br><br>
-<!--
+
 <div class="container-fluid" style="background-color: aqua" >
     <div class="row">
         <div class="col">
-            <p class="text-left">
-                @foreach ($User as $User) 
-                <p class="h3" style="font-family: 'Edu NSW ACT Foundation', cursive;">¡¡ Bienvenido {{$User->name}}  {{$User->paterno}} {{$User->materno}} a Cybernahualt un mundo
-                    lleno de aprendizaje ancestral !!</p>
-                @endforeach
-            </p>
+            <p> <h1>¡Ma san ika kwalle otrahsike {{ Auth::user()->name}} {{ Auth::user()->paterno}}!</h1></p>
+            
         </div>
     </div>
-</div>-->
+</div>
+
 <div class="container mt-4">
     <center><h1 class="display-4" style="font-family: 'Cormorant SC', serif;">CURSOS EN NAHUATL</h1></center>
 </div>
@@ -59,7 +56,7 @@
                 <div class="card-body">
                     <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">Numeros en Nahualt</h5>
                     <p class="card-text"  style="text-align:justify">Consiste en los numeros en nahualt en la cual contiene los numeros basicos
-                    de aprender en nahualt</p>
+                    de nahualt</p>
                     <a href="#"><button type="button"  class="btn btn-outline-danger btn-block" href="#" >Ir a curso</button></a>
                 </div>
             </div>

@@ -10,6 +10,7 @@ use App\Http\Controllers\Letra_a;
 use App\Http\Controllers\Grafias;
 use App\Http\Controllers\TablaSaludo;
 use App\Http\Controllers\Animaciones;
+use App\Http\Controllers\LexicoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,6 +33,7 @@ Route::get('/tablaCursos', [App\Http\Controllers\TablaCursosController::class, '
 Route::get('/alfabeto', [App\Http\Controllers\AlfabetoController::class, 'alfabeto'])->name('alfabeto');
 Route::get('/profesores', [App\Http\Controllers\Profesores::class, 'profesores'])->name('profesores');
 Route::get('/quienesSomos', [App\Http\Controllers\QuienesSomos::class, 'quienesSomos'])->name('quienesSomos');
+Route::get('/lexico', [App\Http\Controllers\LexicoController::class, 'lexico'])->name('lexico');
 
 Route::get('/grafias.letra_a', [App\Http\Controllers\Letras::class, 'letra_a'])->name('grafias.letra_a');
 Route::get('/grafias.letra_ch', [App\Http\Controllers\Letras::class, 'letra_ch'])->name('grafias.letra_ch');
@@ -52,6 +54,8 @@ Route::get('/grafias.letra_ts', [App\Http\Controllers\Letras::class, 'letra_ts']
 Route::get('/grafias.letra_w', [App\Http\Controllers\Letras::class, 'letra_w'])->name('grafias.letra_w');
 Route::get('/grafias.letra_x', [App\Http\Controllers\Letras::class, 'letra_x'])->name('grafias.letra_x');
 Route::get('/grafias.letra_y', [App\Http\Controllers\Letras::class, 'letra_y'])->name('grafias.letra_y');
+
+
 
 Route::get('/tablaSaludo', [App\Http\Controllers\TablaSaludo::class, 'tablaSaludo'])->name('tablaSaludo');
 Route::get('/saludo', [App\Http\Controllers\Saludo::class, 'saludo'])->name('saludo');

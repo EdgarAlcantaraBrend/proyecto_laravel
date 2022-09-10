@@ -121,18 +121,18 @@
                             </div>
                         </div>
 
+                        <br><br><br>
                         <div class="row">
-                            <div class="col-7"></div>
                             <div class="col" style="margin-top: -9px">
                                 <a class="nav-link"
                                     href="{{ route('welcome') }}">
-                                    <span class="btn btn-danger" data-toggle="modal" href="{{ route('welcome') }}">
+                                    <span class="btn btn-danger btn-block" data-toggle="modal" href="{{ route('welcome') }}">
                                         Cancelar
                                     </span>
                                     </a>
                             </div>
                             <div class="col">
-                                <button type="submit" class="btn btn-primary" >
+                                <button type="submit" class="btn btn-primary btn-block" >
                                     {{ __('Registrar') }}
                                 </button>
                             </div>
