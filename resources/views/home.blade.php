@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content')go
+@section('content')
 <br><br><br>
 
 <div class="container-fluid" style="background-color: aqua" >

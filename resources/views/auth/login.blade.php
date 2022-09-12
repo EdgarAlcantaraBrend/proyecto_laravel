@@ -26,7 +26,7 @@
 
                         @error('email')
                             <span class="invalid-feedback" role="alert">
-                                <strong>{{ ('Correo no registrado') }}</strong>
+                                <strong>{{ ('Correo o contraseña incorrecta') }}</strong>
                             </span>
                         @enderror
                     </div>
