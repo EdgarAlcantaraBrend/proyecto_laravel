@@ -17,68 +17,31 @@
         <section class="hero-section">
         <div class="card-grid">
             <a class="card" >
-            <div class="card__background" style="background-image: url('{{asset('img/agua.png')}}')"></div>
+            <div class="card__background" style="background-image: url('{{asset('img/lexico/agua.jpg')}}')"></div>
             <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <p class="card__category"><h1 style="text-white">agua</h1></p>
+                <h3 class="card__heading">alt</h3>
             </div>
             </a>
             <a class="card" >
-                <div class="card__background" style="background-image: url('{{asset('img/agua.png')}}')"></div>
+                <div class="card__background" style="background-image: url('{{asset('img/lexico/libro.jpg')}}')"></div>
             <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <p class="card__category"><h1>Libro</h1></p>
+                <h3 class="card__heading">amoxtli </h3>
             </div>
             </a>
-            <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <a class="card" >
+            <div class="card__background" style="background-image: url('{{asset('img/lexico/casa.jpg')}}')" ></div>
             <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <p class="card__category"><h1>Casa</h1></p>
+                <h3 class="card__heading">kalle</h3>
             </div>
             </li>
-            <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <a class="card" >
+            <div class="card__background" style="background-image: url('{{asset('img/lexico/Frijoles.jpg')}}')"></div>
             <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
-            </div>
-            </a>
-        <div>
-        </section>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-        <section class="hero-section">
-        <div class="card-grid">
-            <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)"></div>
-            <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
-            </div>
-            </a>
-            <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
-            <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
-            </div>
-            </a>
-            <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
-            <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
-            </div>
-            </li>
-            <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
-            <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <p class="card__category"><h1>Frijol</h1></p>
+                <h3 class="card__heading">yetl</h3>
             </div>
             </a>
         <div>
@@ -89,32 +52,104 @@
         <div class="col">
         <section class="hero-section">
         <div class="card-grid">
-            <a class="card" href="#">
-                <div class="card__background" style="background-image: url('{{asset('img/agua.png')}}')"></div>
+            <a class="card" >
+                <div class="card__background" style="background-image: url('{{asset('img/lexico/aguila.jpg')}}')"></div>
             <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <p class="card__category"><h1>Àguila</h1></p>
+                <h3 class="card__heading">kwawtli</h3>
             </div>
             </a>
-            <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <a class="card" >
+            <div class="card__background" style="background-image: url('{{asset('img/lexico/arena.jpg')}}')"></div>
             <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <p class="card__category"><h1>Arena</h1></p>
+                <h3 class="card__heading">xalle </h3>
             </div>
             </a>
-            <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <a class="card" >
+            <div class="card__background" style="background-image: url('{{asset('img/lexico/piedra.jpg')}}')"></div>
             <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <p class="card__category"><h1>Piedra</h1></p>
+                <h3 class="card__heading">tetl </h3>
             </div>
             </li>
-            <a class="card" href="#">
-            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <a class="card">
+            <div class="card__background"  style="background-image: url('{{asset('img/lexico/camino.jpg')}}')" ></div>
             <div class="card__content">
-                <p class="card__category">Category</p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <p class="card__category"><h1>Camino</h1></p>
+                <h3 class="card__heading">ohtle</h3>
+            </div>
+            </a>
+        <div>
+        </section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+        <section class="hero-section">
+        <div class="card-grid">
+            <a class="card" >
+                <div class="card__background" style="background-image: url('{{asset('img/lexico/torcer.jpg')}}')"></div>
+            <div class="card__content">
+                <p class="card__category"><h1>Torcer</h1></p>
+                <h3 class="card__heading">malinalle </h3>
+            </div>
+            </a>
+            <a class="card" >
+            <div class="card__background" style="background-image: url('{{asset('img/lexico/flor.jpg')}}')"></div>
+            <div class="card__content">
+                <p class="card__category"><h1>Flor</h1></p>
+                <h3 class="card__heading">xuchitl</h3>
+            </div>
+            </a>
+            <a class="card" >
+            <div class="card__background" style="background-image: url('{{asset('img/lexico/madre.jpg')}}')"></div>
+            <div class="card__content">
+                <p class="card__category"><h1>Madre</h1></p>
+                <h3 class="card__heading">nantle  </h3>
+            </div>
+            </li>
+            <a class="card">
+            <div class="card__background"  style="background-image: url('{{asset('img/lexico/tierra.jpg')}}')" ></div>
+            <div class="card__content">
+                <p class="card__category"><h1>Tierra</h1></p>
+                <h3 class="card__heading">tlalle </h3>
+            </div>
+            </a>
+        <div>
+        </section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+        <section class="hero-section">
+        <div class="card-grid">
+            <a class="card" >
+                <div class="card__background" style="background-image: url('{{asset('img/lexico/torcer.jpg')}}')"></div>
+            <div class="card__content">
+                <p class="card__category"><h1>Torcer</h1></p>
+                <h3 class="card__heading">malinalle </h3>
+            </div>
+            </a>
+            <a class="card" >
+            <div class="card__background" style="background-image: url('{{asset('img/lexico/flor.jpg')}}')"></div>
+            <div class="card__content">
+                <p class="card__category"><h1>Flor</h1></p>
+                <h3 class="card__heading">xuchitl</h3>
+            </div>
+            </a>
+            <a class="card" >
+            <div class="card__background" style="background-image: url('{{asset('img/lexico/madre.jpg')}}')"></div>
+            <div class="card__content">
+                <p class="card__category"><h1>Madre</h1></p>
+                <h3 class="card__heading">nantle  </h3>
+            </div>
+            </li>
+            <a class="card">
+            <div class="card__background"  style="background-image: url('{{asset('img/lexico/tierra.jpg')}}')" ></div>
+            <div class="card__content">
+                <p class="card__category"><h1>Tierra</h1></p>
+                <h3 class="card__heading">tlalle </h3>
             </div>
             </a>
         <div>

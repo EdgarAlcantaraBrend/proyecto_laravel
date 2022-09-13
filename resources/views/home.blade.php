@@ -7,7 +7,6 @@
     <div class="row">
         <div class="col">
             <p> <h1>¡Ma san ika kwalle otrahsike {{ Auth::user()->name}} {{ Auth::user()->paterno}}!</h1></p>
-            
         </div>
     </div>
 </div>
@@ -57,7 +56,7 @@
                     <h5 class="card-title text-center" style="font-family: 'Cormorant SC', serif;">Numeros en Nahualt</h5>
                     <p class="card-text"  style="text-align:justify">Consiste en los numeros en nahualt en la cual contiene los numeros basicos
                     de nahualt</p>
-                    <a href="#"><button type="button"  class="btn btn-outline-danger btn-block" href="#" >Ir a curso</button></a>
+                    <a href="{{ route('numeros') }}"><button type="button"  class="btn btn-outline-danger btn-block" href="#" >Ir a curso</button></a>
                 </div>
             </div>
         </div>
