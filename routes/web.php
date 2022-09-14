@@ -9,6 +9,7 @@ use App\Http\Controllers\Letras;
 use App\Http\Controllers\Letra_a;
 use App\Http\Controllers\Grafias;
 use App\Http\Controllers\TablaSaludo;
+
 use App\Http\Controllers\Animaciones;
 
 /*
@@ -32,6 +33,9 @@ Route::get('/alfabeto', [App\Http\Controllers\AlfabetoController::class, 'alfabe
 Route::get('/profesores', [App\Http\Controllers\Profesores::class, 'profesores'])->name('profesores');
 Route::get('/quienesSomos', [App\Http\Controllers\QuienesSomos::class, 'quienesSomos'])->name('quienesSomos');
 Route::get('/lexico', [App\Http\Controllers\LexicoController::class, 'lexico'])->name('lexico');
+
+
+
 
 Route::get('/grafias.letra_a', [App\Http\Controllers\Letras::class, 'letra_a'])->name('grafias.letra_a');
 Route::get('/grafias.letra_ch', [App\Http\Controllers\Letras::class, 'letra_ch'])->name('grafias.letra_ch');

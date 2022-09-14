@@ -235,10 +235,6 @@
                 </div>
             </section>
         </section>
-        <footer class="footer">
-            <p class="footer-text">&copy; 2021 Created by Maza designDev</p>
-            
-          </footer>
     </main>
 </body>
 </html>
