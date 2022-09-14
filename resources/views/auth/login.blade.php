@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<br><br><br><br><br>
+<br><br>
 <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 
 <div class="wrapper fadeInDown">
@@ -10,10 +10,12 @@
 
         <!-- Icon -->
         <div class="fadeIn first">
-            <img src="{{asset('img/logo.jpg')}}"  href="curso.php" style="width: 200px;height:180px"/>
+            <p></p>
+            <img src="{{asset('img/logo.jpg')}}"  href="curso.php" style="width: 180px;height:160px"/>
+            <p></p>
             <h1 style="color: black">Bienvendo Al Mundo Nahuatl</h1>
         </div>
-
+        
         <div class="card-body">
             <form method="POST" action="{{ route('login') }}">
                 @csrf
@@ -46,12 +48,12 @@
                     </div>
                 </div>
 
-               
+                <br>
 
                 <div class="row ">
-                    <div class="col-md-12 ">
-                        <button type="submit" class="btn btn-primary">
-                            {{ __('Enviar') }}
+                    <div class="col-md-12 " >
+                        <button type="submit" class="btn btn-primary" style="height: 45px;width:200px;">
+                            {{ __('Iniciar sesión' ) }}
                         </button>
                     </div>
                 </div>
@@ -60,9 +62,8 @@
             </form>    
         </div>
         <div id="formFooter">
-            <a class="nav-link" href="{{ route('welcome') }}"><button class="btn btn-danger" type="submit">Cancelar</button></a>
+            <a class="nav-link" href="{{ route('welcome') }}"><button class="btn btn-danger" type="submit" style="height: 45px;width:200px;">Cancelar</button></a>
         </div>
     </div>
 </div>
-
 @endsection

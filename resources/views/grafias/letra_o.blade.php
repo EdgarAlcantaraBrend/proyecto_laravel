@@ -43,7 +43,7 @@
                             </tr>
                             <tr>
                                 <div><td>oselotl</td></div>
-                                <div><td>Jugar</td></div>
+                                <div><td>Jaguar</td></div>
                                 <div><td><audio controls>
                                 <source src="{{asset('audios/letra_o/oselotl.mp3')}}" type="audio/mp3">
                                 </audio></td></div>

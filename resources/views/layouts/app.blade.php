@@ -67,7 +67,7 @@
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top fixed-top navbar-responsive">
                         
                         <div class="col-sm-3">
-                            <img src="{{asset('img/logo_2_2.png')}}" width="60px"  alt="">
+                            <img src="{{asset('img/logo_2_2.png')}}" width="60px"  alt="" >
                             <a class="navbar-brand" href="index.php">
                                 CyberNahualt
                             </a>
