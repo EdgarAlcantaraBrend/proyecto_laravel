@@ -7,7 +7,6 @@
     <div class="row">
         <div class="col">
             <p> <h1>¡Ma san ika kwalle otrahsike {{ Auth::user()->name}} {{ Auth::user()->paterno}}!</h1></p>
-            
         </div>
     </div>
 </div>
@@ -236,10 +235,6 @@
                 </div>
             </section>
         </section>
-        <footer class="footer">
-            <p class="footer-text">&copy; 2021 Created by Maza designDev</p>
-            
-          </footer>
     </main>
 </body>
 </html>

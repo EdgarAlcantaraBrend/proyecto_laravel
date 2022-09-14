@@ -42,6 +42,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Questrial&family=Raleway:ital,wght@1,100;1,300&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/botonFlotante.css') }}">
@@ -132,10 +133,22 @@
                                     
                                     <li class="nav-item active dropdown">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                           
+                                            <img src="{{asset('img/icono.png')}}" width="30" height="30" alt="" loading="lazy">
                                             {{ Auth::user()->name}}
                                         </a>
 
+
                                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+
+                                            <a class="dropdown-item" >
+                                                Mi perfil
+                                            </a>
+
+                                            <a class="dropdown-item"  href="" >
+                                                Mi Progeso
+                                            </a>
+
                                             <a class="dropdown-item" href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                             document.getElementById('logout-form').submit();">
